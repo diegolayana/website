@@ -1,0 +1,178 @@
+body {
+    background-color: #F5E9CF;
+    font-family: Inter, sans-serif ;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #4D455D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4D455D;
+    color: white;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top:0;
+    padding: 0px 30px;
+    min-height: 75px;
+    width: 100%;
+}
+
+.logo {
+    width: 60vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+nav {
+    font-weight: 400;
+}
+
+nav > ul {
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+#icon-logo {
+    font-size: 2em;
+}
+
+#logo-text {
+    font-size: 2em;
+}
+
+#sec-form {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    gap: 20px;
+}
+
+#sec-form > h2 {
+    font-size: 2em;
+}
+
+#sec-form input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#sec-form input[type="submit"] {
+    max-width: 175px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #E96479;
+    font-size: 1.1em;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.btn {
+    padding: 0 20px;
+    border-radius: 21px;
+}
+
+#features{
+    padding: 20px 20px;
+    margin-bottom: 60px;
+
+}
+
+.feature-wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    gap: 20px;
+}
+
+.text-wrapper > h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.text-wrapper > p {
+    color:#E96479;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.feature-row {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-wraper {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.text-wrapper {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+
+#video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+iframe {
+    height: 630px;
+    width: 1120px;
+}
+
+.pricing-card {
+    height: 638px;
+    width: 365px;
+    border-radius: 20px;
+    border: 5px solid #4D455D;
+    opacity: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
